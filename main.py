@@ -4,7 +4,7 @@ from telegram import Bot
 BINANCE_KEY=os.getenv("VPdMCjArmaRtvlJyvArIaz2ZnqqWMcZ7sKuQbQsm4zX8BXR0biiW1fiaGuvVj1dV",""); BINANCE_SECRET=os.getenv("SLPJzh2UD8XAJdwgkcTnOjQKaYgzwx Rt4OkXxupqe8qQBgU0hAYL0KJlVTGh3AB","")
 BYBIT_KEY=os.getenv("BZJaXO5lBk3z7KzWBv",""); BYBIT_SECRET=os.getenv("hY3eToJFgIwMiG0CrDkMPFBSeh6g2ccShctN","")
 GEMINI_KEY=os.getenv("AQ.Ab8RN6LbqWUfva4hEJmqO4NGqSzxHneg0gskmPsd_7BFeSbbUQ",""); TELEGRAM_TOKEN=os.getenv("8913440819:AAH8ibRL4-NZM3W2d-bofALpuUeIoSoXJ_0",""); TELEGRAM_CHAT_ID=os.getenv("8913440819","")
-genai.configure(api_key= )
+genai.configure("AQ.Ab8RN6LbqWUfva4hEJmqO4NGqSzxHneg0gskmPsd_7BFeSbbUQ","");= )
 gemini=genai.GenerativeModel('gemini-2.0-flash-lite')
 bot=Bot(token= )
 binance=ccxt.binance({'apiKey':VPdMCjArmaRtvlJyvArIaz2ZnqqWMcZ7sKuQbQsm4zX8BXR0biiW1fiaGuvVj1dV,'secret':SLPJzh2UD8XAJdwgkcTnOjQKaYgzwxvRt4OkXxupqe8qQBgU0hAYL0KJlVTGh3AB,'enableRateLimit':True})
